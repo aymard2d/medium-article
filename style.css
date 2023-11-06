@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+body {
+  background-color:#EEEEEE;
+  font-family: 'Montserrat', sans-serif;
+  color: #7B8FA1;
+  padding: 25px;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #567189;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #CFB997;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #6c4106;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
+@media (max-width: 992px ) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
